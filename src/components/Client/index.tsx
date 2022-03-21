@@ -5,7 +5,7 @@ const logo = '/icons/whiteTahfidz.png';
 
 type Props = {
     limit?: Number,
-    text: String,
+    text?: String,
 }
 
 const Client: NextPage<Props> = ({ limit = 100, text = `Yayasan Istiqomah Tarbiyah Sunnah adalah suatu lembaga yang bergerak 
