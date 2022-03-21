@@ -1,0 +1,15 @@
+@import './abstracts/mixin';
+@import './abstracts/variable';
+
+@import './base/base';
+
+@import './layout/layout';
+
+@import '../components/Global/Header/header';
+
+@import '../components/Hero/HeroContent/hero-content';
+@import '../components/Client/client';
+@import '../components/Teacher/teacher';
+@import '../components/Review/review';
+@import '../components/Courses/courses';
+@import '../components/Footer/footer';

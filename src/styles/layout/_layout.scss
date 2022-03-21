@@ -1,0 +1,26 @@
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+  
+    @include small() {
+      max-width: 540px;
+    }
+  
+    @include medium() {
+      max-width: 720px;
+      padding: 0 150px;
+    }
+  
+    @include large() {
+      max-width: 960px;
+    }
+  
+    @include x-large() {
+      max-width: 1140px;
+    }
+  
+    @include xx-large() {
+      max-width: 1320px;
+    }
+  }

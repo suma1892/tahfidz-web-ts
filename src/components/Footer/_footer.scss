@@ -1,0 +1,67 @@
+.footer {
+  background-color: rgba(255, 242, 243, 1);
+
+  &__row {
+    padding: 106px 0 95px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    display: grid;
+    gap: 50px;
+  }
+
+  &__col-1 {
+
+    >p {
+      color: $color-black;
+      font-size: 16px;
+      margin-top: 27px;
+    }
+  }
+
+  &__contact,
+  &__social-media {
+    margin-bottom: 26px;
+
+    @include medium() {
+      margin-bottom: 46px;
+    }
+
+    h3 {
+      font-size: 24px;
+      line-height: 36px;
+      color: $color-black;
+      font-weight: 600;
+    }
+
+    &--items {
+      color: $color-black;
+      font-size: 14px;
+
+      @include medium() {
+        font-size: 16px;
+      }
+
+      a {
+        color: $color-black;
+        display: block;
+      }
+
+      >* {
+        margin-bottom: 14px;
+
+        @include medium() {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  &__contain {
+
+    &--img {
+      position: relative;
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+}
