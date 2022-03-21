@@ -6,9 +6,9 @@ const Teacher: NextPage = () => {
     return (
         <div className='teacher'>
             <div className='container'>
-                <h5>Practice Advice</h5>
-                <h1>Our Experts Teacher</h1>
-                <h4>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </h4>
+                <h5>Dokumentasi</h5>
+                <h1>Galeri Al-Istiqomah</h1>
+                <h4>Berbagi momen dan pengalaman bersama Yayasan Istiqomah Tarbiyah Sunnah</h4>
             </div>
 
             <div className='teacher-sale container'>

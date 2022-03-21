@@ -1,5 +1,5 @@
 .client {
-    margin-top: 80px;
+    margin-top: 70px;
     &-visitor {
         display: grid;
         gap: 20px;
@@ -28,7 +28,8 @@
     &-description {
         display: flex;
         align-items: center;
-        margin-top: 150px;
+        margin-top: 20px;
+        margin-bottom: 100px;
 
         h1 {
             font-size: 40px;
@@ -41,7 +42,7 @@
             font-size: 14px;
             font-weight: 400;
             font-family: 'Montserrat';
-            line-height: 20px;
+            line-height: 30px;
             margin-top: 10px;
             color: $color-black;
         }
@@ -53,6 +54,7 @@
             line-height: 20px;
             margin-top: 30px;
             color: $color-green;
+            cursor: pointer;
         }
     }
 

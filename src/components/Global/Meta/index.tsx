@@ -8,7 +8,7 @@ type Props = {
 }
 
 const Meta: NextPage<Props> = ({
-  title = 'RBQA',
+  title = 'Yayasan Istiqomah Tarbiyah Sunnah',
   description = 'Sekolah islam sunnah',
   image = "/logo.png"
 }) => {

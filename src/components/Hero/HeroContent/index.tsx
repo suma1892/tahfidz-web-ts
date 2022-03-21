@@ -10,13 +10,13 @@ const shape = '/icons/shape.png';
 const HeroContent: NextPage = () => {
     return (
         <div className='hero-content container'>
-            <h5>join us</h5>
-            <h1>25K+ STUDENTS<br />TRUST US</h1>
-            <h3>Every day brings with it a fresh set of learning<br />possibilities.</h3>
+            <h5>Info PPDB</h5>
+            <h1>Dibuka Penerimaan<br/>Peseta Didik Baru</h1>
+            <h3>Tahun Ajaran 2021/2022</h3>
 
             <div className='hero-content-button-wrapper'>
                 <div className='hero-content-button-wrapper-button1'>
-                    <h4>Get Quote Now</h4>
+                    <h4>Formulir</h4>
                 </div>
 
                 <div className='hero-content-button-wrapper-button2'>

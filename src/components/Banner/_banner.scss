@@ -1,0 +1,79 @@
+.banner {
+  padding-top: 100px;
+
+  @include medium() {
+    padding-top: 20px;
+  }
+
+  .react-multi-carousel-track {
+    height: calc(100vw / (1840 / 704));
+  }
+
+  &-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+  }
+
+  .react-multiple-carousel__arrow {
+    background: #fff;
+    box-shadow: 2px 1px 10px #00000029;
+    min-width: 20px;
+    min-height: 20px;
+
+    @include medium() {
+      min-width: 40px;
+      min-height: 40px;
+    }
+  }
+
+  .react-multiple-carousel__arrow:hover {
+    background: lightgray;
+  }
+
+  .react-multiple-carousel__arrow::before {
+    color: #000;
+    font-weight: 800;
+    font-size: 12px;
+
+    @include medium() {
+      font-size: 20px;
+    }
+  }
+
+  .react-multiple-carousel__arrow::after {
+    color: #000;
+    font-weight: 800;
+    font-size: 12px;
+
+    @include medium() {
+      font-size: 20px;
+    }
+  }
+
+  .react-multiple-carousel__arrow--left {
+    left: 5.27%;
+
+    @include medium() {
+      left: 6.18%;
+    }
+  }
+
+  .react-multiple-carousel__arrow--right {
+    right: 5.27%;
+
+    @include medium() {
+      right: 6.18%;
+    }
+  }
+
+  .react-loading-skeleton {
+    width: 100vw !important;
+    height: calc(100vw * 2 / 3) !important;
+
+    @include small() {
+      width: 100vw;
+      height: 50vw;
+    }
+  }
+}

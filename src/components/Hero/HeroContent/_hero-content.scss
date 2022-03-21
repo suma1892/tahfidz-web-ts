@@ -12,9 +12,13 @@
     h1 {
         font-family: 'Montserrat';
         font-weight: 700;
-        font-size: 58px;
+        font-size: 20px;
         color: rgba(37, 43, 66, 1);
         margin-top: 20px;
+
+        @include medium() {
+            font-size: 58px;
+        }
     }
 
     h3 {
@@ -30,20 +34,25 @@
         display: flex;
         &-button1 {
             background: $color-green;
-            padding: 15px 40px;
+            padding: 15px;
             border-radius: 7px;
+            // text-align: center;
 
             h4 {
                 font-family: 'Montserrat';
                 font-weight: 700;
-                font-size: 14px;
+                font-size: 10px;
                 color: white;
+
+                @include medium() {
+                    font-size: 14px;
+                }
             }
         }
 
         &-button2 {
             background: white;
-            padding: 15px 40px;
+            padding: 15px;
             border-radius: 7px;
             border-style: solid;
             margin-left: 20px;
@@ -52,8 +61,12 @@
             h4 {
                 font-family: 'Montserrat';
                 font-weight: 700;
-                font-size: 14px;
                 color: $color-green;
+                font-size: 10px;
+
+                @include medium() {
+                    font-size: 14px;
+                }
             }
         }
     }

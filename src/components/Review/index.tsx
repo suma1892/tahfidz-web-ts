@@ -1,14 +1,14 @@
 import type { NextPage } from 'next'
 import Image from 'next/image';
 const stars = '/icons/star.png';
-const reviewer = '/icons/teacher.jpg';
+const reviewer = '/icons/muslim-women.png';
 
 const Review: NextPage = () => {
     return (
         <div className='review container'>
-            <h5>Practice Advice</h5>
-            <h1>Every Client Matters</h1>
-            <h4>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </h4>
+            <h5>Testimoni</h5>
+            <h1>Testimoni Orang Tua Santri</h1>
+            <h4>Beberapa Kesan dan Pesan yang dibagikan oleh orang tua santri tentang pengalaman dan kualitas lembaga pendidikan di yayasan istiqomah tarbiyah sunnah</h4>
 
             <div className='review-star'>
                 {[...Array(3)].map((_, i) => (
