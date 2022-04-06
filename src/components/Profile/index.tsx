@@ -36,7 +36,7 @@ sudah memiliki lebih dari 100 santri dan telah meluluskan satu angkatan yang Ins
     }, []);
 
     return (
-        <div className='client container'>
+        <div className='profile container' id='profile'>
             {/* <div className='client-visitor'>
                 <div>
                     <h1>15K</h1>
@@ -59,7 +59,7 @@ sudah memiliki lebih dari 100 santri dan telah meluluskan satu angkatan yang Ins
                 </div>
             </div> */}
 
-            <div className='client-description'>
+            <div className='profile-description'>
                 <div>
                     <div className='red-line2' />
                     <h1>Selayang Pandang YITAS</h1>

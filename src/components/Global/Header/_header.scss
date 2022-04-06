@@ -3,26 +3,32 @@
   z-index: 999;
   width: 100%;
   transition: 0.6s ease-out;
-  margin-top: 135px;
-  padding-top: 200px;
+  // margin-top: 135px;
+  // padding-top: 200px;
+  
   background: #F1E1A6;
-  height: 70px;
+  // height: 90px;
+  
 
   &-active {
     position: fixed;
     z-index: 999;
     width: 100%;
     transition: 0.6s ease-out;
-    padding-top: 15px;
+    // padding: 15px 0px;
     background: #F1E1A6;
-    height: 90px;
+    // height: 90px;
   }
 
   &-navbar {
     position: relative;
     display: flex;
     align-items: center;
-    padding-top: 10px;
+    // margin: 15px 0px;
+    
+    // padding-top: 10px;
+    // background-color: red;
+    height: 70px;
 
     &-logo {
       display: flex;
@@ -43,7 +49,7 @@
       gap: 21px;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
-      h1 {
+      a {
         font-size: 14px;
         font-weight: 700;
         font-family: 'Montserrat';

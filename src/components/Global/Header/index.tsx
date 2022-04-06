@@ -59,12 +59,29 @@ const Header: NextPage = () => {
             <h1 className='header-navbar-title'>YITAS</h1>
           </div>
           <div className='header-navbar-menu'>
-            <h1>Beranda</h1>
-            <h1>Profil</h1>
-            <h1>Program</h1>
-            <h1>Kontak</h1>
-            <h1>Galeri</h1>
-            <h1>Artikel</h1>
+            <Link href="/" replace>
+              <a>Beranda</a>
+            </Link>
+
+            <Link href="/#profile" replace>
+              <a>Profil</a>
+            </Link>
+
+            <Link href="/#program" replace>
+              <a>Program</a>
+            </Link>
+
+            <Link href="/#footer" replace>
+              <a>Kontak</a>
+            </Link>
+
+            <Link href="/#galery" replace>
+              <a>Galeri</a>
+            </Link>
+
+            <Link href="/" replace>
+              <a>Artikel</a>
+            </Link>
           </div>
 
           <div className='header-navbar-button'>
@@ -106,27 +123,27 @@ const Header: NextPage = () => {
                 <p onClick={() => setIsNavOpen(!isNavOpen)}>Beranda</p>
               </a>
             </Link>
-            <Link href="/#our-restaurant" replace>
+            <Link href="/#profile" replace>
               <a>
                 <p onClick={() => setIsNavOpen(!isNavOpen)}>Profil</p>
               </a>
             </Link>
-            <Link href="/#our-menu" replace>
+            <Link href="/#program" replace>
               <a>
                 <p onClick={() => setIsNavOpen(!isNavOpen)}>Program</p>
               </a>
             </Link>
-            <Link href="/#gallery" replace>
+            <Link href="/#footer" replace>
               <a>
                 <p onClick={() => setIsNavOpen(!isNavOpen)}>Kontak</p>
               </a>
             </Link>
-            <Link href="/#gallery" replace>
+            <Link href="/#galery" replace>
               <a>
                 <p onClick={() => setIsNavOpen(!isNavOpen)}>Galeri</p>
               </a>
             </Link>
-            <Link href="/#gallery" replace>
+            <Link href="/" replace>
               <a>
                 <p onClick={() => setIsNavOpen(!isNavOpen)}>Artikel</p>
               </a>

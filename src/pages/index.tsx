@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
-import {Meta, Hero, Client, Teacher, Review, Courses, Footer} from '../components';
+import {Meta, Hero, Galery, Review, Courses, Footer, Profile} from '../components';
 
 const Home: NextPage = () => {
   return (
     <>
       <Meta/>
       <Hero/>
-      <Client/>
-      <Teacher/>
+      <Profile/>
+      <Galery/>
       <Review/>
       <Courses/>
       <Footer/>

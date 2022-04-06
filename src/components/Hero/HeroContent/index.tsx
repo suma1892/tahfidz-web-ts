@@ -9,7 +9,7 @@ const shape = '/icons/shape.png';
 
 const HeroContent: NextPage = () => {
     return (
-        <div className='hero-content container'>
+        <div className='hero-content container' id='program'>
             <h5>Info PPDB</h5>
             <h1>Dibuka Penerimaan<br/>Peseta Didik Baru</h1>
             <h3>Tahun Ajaran 2021/2022</h3>

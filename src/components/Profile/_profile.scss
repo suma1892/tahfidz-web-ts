@@ -1,5 +1,6 @@
-.client {
-    margin-top: 70px;
+.profile {
+    padding-top: 20px;
+    // background-color: red;
     &-visitor {
         display: grid;
         gap: 20px;
@@ -62,6 +63,7 @@
 
 .red-line2 {
     width: 100px;
+    margin-top: 120px;
     height: 10px;
     margin-bottom: 20px;
     background-color: rgba(231, 64, 64, 1);
